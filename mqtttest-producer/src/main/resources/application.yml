@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: provider
+  mqtt:
+    url: tcp://127.0.0.1:1883 #tcp://127.0.0.1:1883,tcp://192.168.60.133:1883
+    username: root
+    password: 12345
+    client:
+      id: emqx_NDYwMT
+    default:
+      topic: topic
+server:
+  port: 8081
